@@ -18,4 +18,6 @@ public class Ruche {
 	public String toString(){
 		return ""+"nbr ouvrier: "+nbr_ouvrier+"\nnbr male: "+nbr_male;
 	}
+	
+	
 }
