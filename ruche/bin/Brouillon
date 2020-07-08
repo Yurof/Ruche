@@ -1,0 +1,60 @@
+
+/*	public void butiner(Map m) {
+		for(int a = 0; a < la.size();a++){// Parcours toutes les abeilles
+			int butine = (int) (Math.random()*((Abeille.RANDOM_BUTINER*(1+Abeille.DISPERTION/2)-Abeille.RANDOM_BUTINER*(1-Abeille.DISPERTION/2))+Abeille.RANDOM_BUTINER*(1-Abeille.DISPERTION/2)));
+			System.out.println("Butine1 = "+butine);
+			for(int f=0; f<m.getListe().size();f++){// Parcours toutes les fleurs
+				if(la.get(a).getNom().equals("Ouvriere") && ((Ouvriere)la.get(a)).getP().getX()==m.getListe().get(f).getX() && ((Ouvriere)la.get(a)).getP().getX()==m.getListe().get(f).getX()) {
+					// Si l'abeille est une ouvrière et qu'elle a les même coordonnées que la fleur
+					if(((Ouvriere)la.get(a)).getPollen()+butine>Abeille.MAX_POLLEN_PORTABLE) {// Si l'ouvrière collecte plus que ce qu'elle peut porter..
+						butine = Abeille.MAX_POLLEN_PORTABLE -((Ouvriere)la.get(a)).getPollen();
+						System.out.println("Butine2 = "+butine);
+						break;
+					}else {
+						System.out.println("Butine3 = "+butine);
+						((Ouvriere)la.get(a)).setPollen((m.getListe().get(f).enlever_pollen(butine)));
+						break;
+					}
+				}
+			}
+			System.out.println("\n");
+		}
+	}*/
+
+    	
+	/*public boolean equals(Object o) {
+		if(this==o)	return true;
+		if(o==null)	return false;
+		if(this.getClass() != o.getClass())	return false;
+		String s = (String) o;
+		if(this.equals(s))	return true;
+		return false;
+	}*/
+
+
+	/*public boolean reproduire (int nb_reine, int nb_fauxbourdon, int nb_ouvriere, Miel m){
+		int retrait =nb_reine*Abeille.MIEL_OEUF_REINE + nb_fauxbourdon*Abeille.MIEL_OEUF_FAUXBOURDON + nb_ouvriere*Abeille.MIEL_OEUF_OUVRIERE;
+		if(m.enlever_miel(retrait)){
+			m.setQttMiel(m.getQttMiel()-retrait);
+			return true;
+		}
+		return false;
+	}
+	*/
+
+
+	/*public void mourrir(){
+		for(int i = 0; i<lf.size() ; i++){
+			if(lf.get(i).getQttPollen()==0){
+				lf.remove(i);
+			}
+		}
+	}*/
+
+	/*public ArrayList<Fleur> clone( ArrayList<Fleur> lf) {
+		ArrayList<Fleur> nouveau = new ArrayList<Fleur>();
+		for(int i = 0 ; i < lf.size();i++) {
+			nouveau.add(new Fleur(lf.get(i)));
+		}
+		return nouveau;
+	}*/
